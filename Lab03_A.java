@@ -15,14 +15,14 @@ public class Lab03_A {
         if (pages<=10)
         {
         cost= 3+pages*.20;
-        System.out.println("That will cost $" + cost);
+        System.out.println("That will cost $" + cost "0");
         }
         
         else 
             if (pages>=10)
                     {
                     cost= 3+10*0.2+(pages-10)*0.1;
-                    System.out.println("That will cost $" + cost);
+                    System.out.println("That will cost $" + cost "0");
                     }
     }
 }
